@@ -1,0 +1,93 @@
+Body {
+    cursor: crosshair;
+}
+.menu-bar{
+    margin: 10px 00px;
+    position: relative;
+    top: 19%;
+    left: 21%;
+}
+.menu {
+    border: 1px solid black;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    border-top: 1px solid rgba (0,0,0,0.5);
+    background: rgba(0,0,0,0.25);
+    box-shadow: inset 0 5px 2px rgba(255,255,255,0.3);
+}
+.body-settings {
+    padding: 2%;
+    background-image: url(../img/background.png);
+    border: 8px black dashed;
+    margin: 0.1% 20% 0.1% 20%;
+    font-size: 22px;
+    text-align: justify;
+    text-transform: capitalize;
+    font-family: 'Shadows Into Light';
+}
+/*this a comment*/
+h1 {
+	text-align: center;
+    text-shadow: 5px 5px 5px gray;
+}
+h3 {
+	text-align: left;
+}
+
+#img-1 {
+    float: left;
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    opacity: 20%;
+    opacity: 0.8;
+    margin-right: 35px;
+}
+list {
+    margin-left: 20px;
+    list-style: decimal;
+    display: list-item;
+}
+.red {
+    border: 3px solid #e33e3e;
+    background-color: #ea7070;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px 1px #ea7001; /* horizontal-x, vertical-y, blur, spreat, color*/
+}
+.blue {
+    border: 3px solid #70b5ea;
+    background-color: #3e9be3;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px 1px #3e9;
+}
+.second:first-letter {
+    float: left;
+    font-size: 40px;
+    margin-right: 0.3em
+}
+/*this is a id selector*/
+#paragraph-1 {
+}
+#paragraph-2 {
+
+}
+/*this is a class*/
+.sed {
+	
+}
